@@ -16,7 +16,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 GOOGLE_API_KEY = "AIzaSyBCYhjF8OdHO-IjyRN0KaqqET9x0N1YcVQ"
-PDF_DIRECTORY = r"C:\Users\shash\OneDrive\Desktop\ChatAppOriginial\pdf_files"
+PDF_DIRECTORY = r"pdf_files"
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
