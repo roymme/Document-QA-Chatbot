@@ -15,7 +15,7 @@ from langgraph.graph import StateGraph, END
 from langgraph.checkpoint.memory import MemorySaver
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 
-GOOGLE_API_KEY = "AIzaSyBCYhjF8OdHO-IjyRN0KaqqET9x0N1YcVQ"
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 PDF_DIRECTORY = r"pdf_files"
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
